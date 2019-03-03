@@ -6,6 +6,11 @@
 * Information about WiringPi, examples and how to access GPIO pins: http://wiringpi.com/
 * GPIO pin numbering (note: GPIO pin 17 corresponds to WiringPi pin 0. It is the WiringPi pin number that is referenced in the C++ code and the physical hardware must be connected to the corresponding GPIO pin on the Pi): http://wiringpi.com/pins/
 
+## Aside on C++ Programming and Syntax
+These links are just for reference.
+* https://www.youtube.com/user/BoQianTheProgrammer/playlists 
+* https://www.tutorialspoint.com/cplusplus/
+
 ## Hardware
 
 ### Additional Links on Accessing Pi's GPIOs
@@ -32,8 +37,19 @@ The following links provide information on how the HX711 amplifier works and how
 * Forum about HX711 interface: https://forum.arduino.cc/index.php?topic=418170.0 
 * Tutorial to Interface HX711 for Arduino:  https://www.instructables.com/id/How-to-Interface-HX711-Balance-Module-With-Load-Ce/
 * HX711 communication C/C++ code: 
-  ** https://github.com/PeakUp/HX711-Load-Cell-Amplifier-Static-Library
-  ** https://stackoverflow.com/questions/44720199/android-things-hx711
-  ** https://github.com/georgeredinger/hx711-1
-  ** https://github.com/gandalf15/HX711/tree/master/HX711_C
-  ** https://github.com/ggurov/hx711
+  * https://github.com/PeakUp/HX711-Load-Cell-Amplifier-Static-Library
+  * https://stackoverflow.com/questions/44720199/android-things-hx711
+  * https://github.com/georgeredinger/hx711-1
+  * https://github.com/gandalf15/HX711/tree/master/HX711_C
+  * https://github.com/ggurov/hx711
+
+## Client-Server Communication
+This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
+* Useful description of client-server implementation in C/C++ (second link contains code example and description of Sockets): https://www.raspberrypi.org/forums/viewtopic.php?t=57897, https://www.thegeekstuff.com/2011/12/c-socket-programming/
+* Websockets and webserver alternative for a web application rather than a local application: https://raspberrypi.stackexchange.com/questions/47467/what-is-the-best-way-to-send-data-from-raspilinux-to-laptopwindows-in-realti/48125
+
+## GUI Implementation
+This section contains links with information about how to set up a GUI. The GUI needs to be able to display the data received by the client in a user-friendly manner (note this is not required if using a web application instead - see above section).
+* PyQT - writing a GUI in Python: https://www.tutorialspoint.com/pyqt/pyqt_hello_world.htm
+* some other Python GUI stuff: https://learn.sparkfun.com/tutorials/python-gui-guide-introduction-to-tkinter/all 
+* Arduino example of code which checks if client recieved data and displays it in GUI: http://forum.arduino.cc/index.php?topic=271097.0
