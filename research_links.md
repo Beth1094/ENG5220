@@ -11,13 +11,13 @@ These links are just for reference.
 * https://www.youtube.com/user/BoQianTheProgrammer/playlists 
 * https://www.tutorialspoint.com/cplusplus/
 
-## Hardware
-
-### Additional Links on Accessing Pi's GPIOs
+## Additional Links on Accessing Pi's GPIOs
 * Introduction to accessing the Raspberry Pi's GPIO in C++ (sysfs) - alternative to using WiringPi (sysfs mentioned in lectures):  http://www.hertaville.com/introduction-to-accessing-the-raspberry-pis-gpio-in-c.html
 
-### Deploying Code onto Raspberry Pi
+## Deploying Code onto Raspberry Pi
 * Deploy code from visual studio on laptop to RPi: https://www.youtube.com/watch?v=_IpjihBU3ps  
+
+## Hardware
 
 ### Components
 * Load cells: https://www.amazon.co.uk/Cylewet-Half-bridge-Weighing-Electric-Resistance/dp/B06XFHQK59/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=7X8E7V7C0WGQV6M0Q0MR x2  
