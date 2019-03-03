@@ -1,4 +1,4 @@
-### Research Links for the Hydration-Station Project
+# Research Links for the Hydration-Station Project
 
 ## The HX711 Amplifier
 The following links provide information on how the HX711 amplifier works and how the Raspberry Pi can communicate with it
