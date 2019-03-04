@@ -45,7 +45,11 @@ The following links provide information on how the HX711 amplifier works and how
   
  ### Raspberry Pi controlled hose pipe
  * http://danshose.blogspot.com/
+ * Circuitry for controlling a solenoid valve from an arduino. Will also work for Pi (could use for a simple PCB): http://www.martyncurrey.com/controlling-a-solenoid-valve-from-an-arduino/
  * https://www.youtube.com/watch?v=ofzjzf_rhZc
+
+### PCB design software
+* https://www.expresspcb.com/
 
 ## Client-Server Communication
 This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
