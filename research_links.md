@@ -42,6 +42,10 @@ The following links provide information on how the HX711 amplifier works and how
   * https://github.com/georgeredinger/hx711-1
   * https://github.com/gandalf15/HX711/tree/master/HX711_C
   * https://github.com/ggurov/hx711
+  
+ ### Raspberry Pi controlled hose pipe
+ * http://danshose.blogspot.com/
+ * https://www.youtube.com/watch?v=ofzjzf_rhZc
 
 ## Client-Server Communication
 This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
