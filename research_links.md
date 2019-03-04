@@ -48,6 +48,12 @@ This section contains links with information about how to set up a client-server
 * Useful description of client-server implementation in C/C++ (second link contains code example and description of Sockets): https://www.raspberrypi.org/forums/viewtopic.php?t=57897, https://www.thegeekstuff.com/2011/12/c-socket-programming/
 * Websockets and webserver alternative for a web application rather than a local application: https://raspberrypi.stackexchange.com/questions/47467/what-is-the-best-way-to-send-data-from-raspilinux-to-laptopwindows-in-realti/48125
 
+### Control GIPO pins with webpage using node.js and websockets
+* https://www.w3schools.com/nodejs/nodejs_raspberrypi_blinking_led.asp
+* https://www.w3schools.com/nodejs/nodejs_raspberrypi_webserver_websocket.asp?fbclid=IwAR34ycTn4GDGx6LVIBwSPDeNtodkVesYtefKqH4x77nBTOofGSNyA8rX7KM
+* Javascript authentication: https://www.formget.com/javascript-login-form/?fbclid=IwAR39zhLEFXxUOe_7WDLhbqZSka517_KwuENBo8frN_vTHITgJPHtXdRJoVE
+* HTML: https://www.w3schools.com/html/default.asp?fbclid=IwAR0CxmJZnXJmnqVeaqhyrNRx790FVXvouGesxjFb9x9pv9LIvRCutS48k7o 
+
 ## GUI Implementation
 This section contains links with information about how to set up a GUI. The GUI needs to be able to display the data received by the client in a user-friendly manner (note this is not required if using a web application instead - see above section).
 * PyQT - writing a GUI in Python: https://www.tutorialspoint.com/pyqt/pyqt_hello_world.htm
