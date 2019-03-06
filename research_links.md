@@ -82,3 +82,7 @@ This section contains links with information about how to set up a GUI. The GUI 
 ## PCB design guide
 * http://userweb.eng.gla.ac.uk/john.davies/orcad/pcbdesigner.pdf
 * http://userweb.eng.gla.ac.uk/john.davies/orcad/pcbdeslab162.pdf
+
+## PCB design
+* https://easyeda.com/fkuntze/HX711_Breakout-Kkewq6Mhz
+
