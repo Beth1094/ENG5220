@@ -18,7 +18,7 @@ These links are just for reference.
 * Deploy code from visual studio on laptop to RPi: https://www.youtube.com/watch?v=_IpjihBU3ps  
 
 ## Hardware
-
+* Full-bridge strain gauge theory: https://www.allaboutcircuits.com/textbook/direct-current/chpt-9/strain-gauges/
 ### Components
 * Load cells: https://www.amazon.co.uk/Cylewet-Half-bridge-Weighing-Electric-Resistance/dp/B06XFHQK59/ref=pd_ybh_a_1?_encoding=UTF8&psc=1&refRID=7X8E7V7C0WGQV6M0Q0MR x2  
 * Water dispenser: https://www.amazon.co.uk/d/Home-Kitchen/Large-Plastic-Dispenser-Cocktails-Beverages/B01J03V0WO/ref=sr_1_4?ie=UTF8&qid=1548864212&sr=8-4&keywords=3+litre+water+dispenser 
