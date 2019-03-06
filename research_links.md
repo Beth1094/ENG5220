@@ -78,3 +78,7 @@ This section contains links with information about how to set up a GUI. The GUI 
 * PyQT - writing a GUI in Python: https://www.tutorialspoint.com/pyqt/pyqt_hello_world.htm
 * some other Python GUI stuff: https://learn.sparkfun.com/tutorials/python-gui-guide-introduction-to-tkinter/all 
 * Arduino example of code which checks if client recieved data and displays it in GUI: http://forum.arduino.cc/index.php?topic=271097.0
+
+## PCB design guide
+* http://userweb.eng.gla.ac.uk/john.davies/orcad/pcbdesigner.pdf
+* http://userweb.eng.gla.ac.uk/john.davies/orcad/pcbdeslab162.pdf
