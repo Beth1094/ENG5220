@@ -60,6 +60,8 @@ The following links provide information on how the HX711 amplifier works and how
  * 1N4007 diode
  * 2.2 Kohm resistor
  * 12V battery 
+ * https://uk.rs-online.com/web/p/products/0342023/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Plumbing_And_Pipeline-_-Valves_And_Taps%7CSolenoid_Valves-_-PRODUCT_GROUP&matchtype=&aud-359743317810:pla-393276713963&s_kwcid=AL!7457!3!243856785797!!!g!393276713963!&gclid=EAIaIQobChMI2NnOt6fw4AIV2ZTVCh2ueAI6EAkYASABEgIONPD_BwE&gclsrc=aw.ds
+ 
 
 ### PCB design software
 * https://www.expresspcb.com/
