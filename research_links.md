@@ -49,6 +49,9 @@ The following links provide information on how the HX711 amplifier works and how
  * Circuitry for controlling a solenoid valve from an arduino. Will also work for Pi (could use for a simple PCB): http://www.martyncurrey.com/controlling-a-solenoid-valve-from-an-arduino/
  * https://www.youtube.com/watch?v=ofzjzf_rhZc
  * How to connect solenoid valve: https://www.youtube.com/watch?v=_tby5VuvNuk 
+ 
+ * http://www.davidhunt.ie/water-droplet-photography-with-raspberry-pi/ 
+ 
  #### Components
  * 12V DC solenoid valve from Amazon: https://www.amazon.co.uk/Electric-Solenoid-Valve-Water-Air/dp/B00BVESSJY/ref=pd_cp_60_1/257-1380011-8269453?_encoding=UTF8&pd_rd_i=B00BVESSJY&pd_rd_r=e7540840-3ed9-11e9-9214-cfe8ba298bf3&pd_rd_w=Ui5bp&pd_rd_wg=5WUaG&pf_rd_p=01704ebe-a86a-4b47-8c36-0f9f5bbc2882&pf_rd_r=K9Y10ZG1MBV4E1HPJKR8&psc=1&refRID=K9Y10ZG1MBV4E1HPJKR8
  * 1/2 inch Hose connector: https://www.amazon.co.uk/Draper-Expert-Garden-Connector-2-Inch/dp/B01089HKJ6/ref=pd_vtph_lp_tr_t_2/257-1380011-8269453?_encoding=UTF8&pd_rd_i=B01089HKJ6&pd_rd_r=fe5e0323-3ed9-11e9-8a7d-e7ec3eadf0c5&pd_rd_w=kAV5e&pd_rd_wg=TwCXF&pf_rd_p=eb02db1b-a172-4b0e-887c-299e5e502bb0&pf_rd_r=CYTN06AHJ19GWN8HYZQE&psc=1&refRID=CYTN06AHJ19GWN8HYZQE
