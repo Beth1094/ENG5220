@@ -4,5 +4,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Beth | Test C++ code communication with current HX711 board| continue C++ code and start writing code for webserver | Finish webserver and client & display weight data on webpage | Unit testing for code & test code on new PCB | software documentation | |
 | Gary & Natalie | Make circuit for solenoid valve and check control from Pi | Integrated PCB design for both circuits & order components for this PCB (ideally PCB design sent for manufacture by end of Thurs 21st so it will be ready early on in the following week)| solder components onto new integrated PCB | calibration & testing of hardware | Hardware documentation | |
-| All | | | | write report and README file on Github to give examples and diagrams of setup etc.. | prepare for demo |
+| All | | | | |write report and README file on Github to give examples and diagrams of setup etc.. | prepare for demo |
 
