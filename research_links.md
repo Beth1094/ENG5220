@@ -66,6 +66,12 @@ The following links provide information on how the HX711 amplifier works and how
 ### PCB design software
 * https://www.expresspcb.com/
 
+## SPI
+* https://github.com/dudapickler/hx711_SPI
+* https://www.raspberrypi.org/forums/viewtopic.php?t=217261 
+* https://raspberry-projects.com/pi/programming-in-c/spi/using-the-spi-interface
+* http://abyz.me.uk/rpi/pigpio/cif.html#spiOpen
+
 ## Client-Server Communication
 This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
 * Useful description of client-server implementation in C/C++ (second link contains code example and description of Sockets): https://www.raspberrypi.org/forums/viewtopic.php?t=57897, https://www.thegeekstuff.com/2011/12/c-socket-programming/
