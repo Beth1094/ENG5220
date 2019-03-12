@@ -73,6 +73,7 @@ The following links provide information on how the HX711 amplifier works and how
 * http://abyz.me.uk/rpi/pigpio/cif.html#spiOpen
 * Example of SPI for ADC: http://www.hertaville.com/interfacing-an-spi-adc-mcp3008-chip-to-the-raspberry-pi-using-c.html
 * https://github.com/halherta/RaspberryPi-mcp3008Spi
+* https://www.raspberrypi.org/forums/viewtopic.php?t=43026
 
 ## Client-Server Communication
 This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
