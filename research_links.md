@@ -76,6 +76,7 @@ The following links provide information on how the HX711 amplifier works and how
 * https://www.raspberrypi.org/forums/viewtopic.php?t=43026
 * https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
 * https://www.avrfreaks.net/forum/hx711-library-help
+* https://github.com/olkal/HX711_ADC
 
 ## Client-Server Communication
 This section contains links with information about how to set up a client-server with Sockets. The Pi will act as the server and the windows pc as the client. In this way the Pi can send the information it collects to a lightweight remote client. 
