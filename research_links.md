@@ -74,7 +74,7 @@ The following links provide information on how the HX711 amplifier works and how
 * Example of SPI for ADC: http://www.hertaville.com/interfacing-an-spi-adc-mcp3008-chip-to-the-raspberry-pi-using-c.html
 * https://github.com/halherta/RaspberryPi-mcp3008Spi
 * https://www.raspberrypi.org/forums/viewtopic.php?t=43026
-* https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters/mcp3008
+* https://cdn-shop.adafruit.com/datasheets/MCP3008.pdf
 * https://www.avrfreaks.net/forum/hx711-library-help
 * https://github.com/olkal/HX711_ADC
 
