@@ -1,8 +1,6 @@
-##Hydration Station Documentation
+## Hydration Station Documentation
 
-##Hardware 
-
-
+## Hardware 
 
 
 
@@ -10,7 +8,9 @@
 
 
 
-##Software 
+
+
+## Software 
 
  
 	Class to get values from a HX711 Load Cell amplifier with scaling and taring
