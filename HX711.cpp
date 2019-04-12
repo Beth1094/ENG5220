@@ -81,12 +81,9 @@ int HX711::spiClose(){
 int HX711::spiTransfer(const uint8_t *txbuf, uint8_t *rxbuf, size_t len){
  
   struct spi_ioc_transfer spi;
-  //int i = 0;
   int retVal = -1; 
-  //bzero(spi, sizeof spi); // ioctl struct must be zeroed 
   memset(&spi, 0, sizeof(struct spi_ioc_transfer));
-// one spi transfer for each byte
- //SPI transfer structure
+   //SPI transfer structure
     spi.tx_buf        = (unsigned long)txbuf; // transmit from "data"
     spi.rx_buf        = (unsigned long)rxbuf; // receive into "data"
     spi.len           = len;

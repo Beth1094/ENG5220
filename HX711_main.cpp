@@ -2,11 +2,11 @@
 using namespace std;
 
 
-#define N_SAMPLES	50
+#define N_SAMPLES	100
 #define SPREAD		1
 #define scale     -142// calibration parameter
 
-int32_t get_bits(uint8_t* dat); //forward ref function
+int32_t get_bits(uint8_t* dat); //forward ref function get_bits
 
 
 int main(void) {
@@ -58,7 +58,6 @@ int main(void) {
 		{		
 		    tmp_avg += samples[i];
 		}
-	//usleep(6000);
   		
 
   tmp_avg = tmp_avg / nsamples;
@@ -92,6 +91,7 @@ int main(void) {
 	printf("Offset: %d\n", offset);
 	printf("Starting...\n" );
 usleep(5000000);
+
 while(1)
 {
 	 
@@ -108,7 +108,7 @@ while(1)
 	}
 	
 	printf("Value: %d grams\n", (desired_bits - offset)/scale);
-
+    //usleep(100000);
 	
 }
     a2d.~HX711();  //call destructor to close spi device 
