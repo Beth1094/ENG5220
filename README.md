@@ -20,13 +20,15 @@ When output data are not ready for retrieval, digital output pin DOUT is high. W
 	
 The data pin goes high when data has been read, and only goes low when new data is available
 
-By applying 25~27 positive clock pulses at the clock pin, data is shifted out from the data output pin. Each clock pulse shifts out one bit, starting with the MSB bit first, until all 24 bits are shifted out. The 25th pulse at clock input will pull data pin back to high. Input and gain selection is controlled by adding a number of extra input clock pulses to the train after the data is collected.
-	clock Pulses   	Input channel   Gain
-	25               		A              	128
-	26               		B              	32
-	27               		A              	64
+By applying 25-27 positive clock pulses at the clock pin, data is shifted out from the data output pin. Each clock pulse shifts out one bit, starting with the MSB bit first, until all 24 bits are shifted out. The 25th pulse at clock input will pull data pin back to high. Input and gain selection is controlled by adding a number of extra input clock pulses to the train after the data is collected.
 
-The HX711 interface needs at least 25 clock pulses, but the SPI hardware is only capable of increments of 8-bits so the function get_bits was written to bit-bang the interface. The MOSI data line was used to generate a clock pulse by writing the value “0xAA”, which will go high 4 times each byte, so 6 bytes were needed to achieve 24 pulses. Then one byte is sent to set the gain of the programmable amplifier: (0x80) for 124, 0xA8 for 64 and 0xA0 for 32.
+| CLock Pulses | Input Channel | Gain |
+| --- | --- | --- | 
+|25|A|128|
+|26|B|32|
+|27|A|64|
+
+The HX711 interface needs at least 25 clock pulses, but the SPI hardware is only capable of increments of 8-bits so the function get_bits was written to bit-bang the interface. The MOSI data line was used to generate a clock pulse by writing the value “0xAA”, which will go high 4 times each byte, so 6 bytes were needed to achieve 24 pulses. Then one byte is sent to set the gain of the programmable amplifier: (0x80) for 124, (0xA8) for 64 and (0xA0) for 32.
 
 The current set up of the code always runs the HX711 with high gain, input channel A, by using 25 pulses but this is easily changeable within the code. This maps onto a pulsedThread train with 25 pulses with 1 us delay and duration time.
 		
