@@ -11,7 +11,7 @@
 
 
 ## Software 
-The HX711 class gets weight values from the data pin from the HX711 SPI ADC with scaling and taring. The tare value is not scaled, but in raw A/D units. The SPI pins: SCK pin (clock pin MOSI/pin 19 on Raspberry) and the DOUT pin (data pin MISO/pin 21 on Raspberry), were used to retrieve data from the HX711 ADC as well as input selection (here SPI mode 0 was used), gain selection of the programmable gain amplifier and to control power down. The Raspberry pi was used to control the clock signal on the MOSI pin and a range of possible SPI bus speeds or SPI clock frequencies are possible for SPI devices: 0.5, 1, 2, 4, 8, 16, 32 MHz. 
+The HX711 class gets weight values from the data pin from the HX711 SPI ADC with scaling and taring. The tare value is not scaled, but in raw A/D units. The SPI pins: SCK pin (clock pin MOSI data line/pin 19 on Raspberry) and the DOUT pin (data pin MISO/pin 21 on Raspberry), were used to retrieve data from the HX711 ADC as well as input selection (here SPI mode 0 was used), gain selection of the programmable gain amplifier and to control power down. The Raspberry pi was used to control the clock signal on the MOSI pin and a range of possible SPI bus speeds or SPI clock frequencies are possible for SPI devices: 0.5, 1, 2, 4, 8, 16, 32 MHz. 
 
 
 When the Pi holds the clockPin high for greater than 60 ms, the HX711 goes into low power mode, holding the dataPin high. When the Pi sets the dataPin low, the HX711 wakes up, but does not have new data ready until 0.5 seconds after turning on. 
@@ -25,6 +25,9 @@ By applying 25~27 positive clock pulses at the clock pin, data is shifted out fr
 	25               		A              	128
 	26               		B              	32
 	27               		A              	64
-This code always runs the HX711 with high gain, input channel A, by using 25 pulses but this is easily chanheable within the code. This maps onto a pulsedThread train with 25 pulses with 1 us delay and duration time.
+
+The HX711 interface needs at least 25 clock pulses, but the SPI hardware is only capable of increments of 8-bits so the function get_bits was written to bit-bang the interface. The MOSI data line was used to generate a clock pulse by writing the value “0xAA”, which will go high 4 times each byte, so 6 bytes were needed to achieve 24 pulses. Then one byte is sent to set the gain of the programmable amplifier: (0x80) for 124, 0xA8 for 64 and 0xA0 for 32.
+
+The current set up of the code always runs the HX711 with high gain, input channel A, by using 25 pulses but this is easily changeable within the code. This maps onto a pulsedThread train with 25 pulses with 1 us delay and duration time.
 		
 Data is 24 bit two's-complement differential signal min value is -8388608, max value is 8388607.
