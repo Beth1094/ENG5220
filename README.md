@@ -16,18 +16,9 @@ The HX711 class gets weight values from the data pin from the HX711 SPI ADC with
 
 When the Pi holds the clockPin high for greater than 60 ms, the HX711 goes into low power mode, holding the dataPin high. When the Pi sets the dataPin low, the HX711 wakes up, but does not have new data ready until 0.5 seconds after turning on. 
 	
-When output data are not ready for retrieval, digital output pin DOUT is high.
-	       _                                                         _
-	____| |_____________________________________| |_________________________
-
-with clock pin held low, (not reading any data) data pin pulses are 100 usec, frequency is 11.2 Hz (90 msec spacing) each high-to-low transution indicates a new value is available from the HX711
+When output data are not ready for retrieval, digital output pin DOUT is high. With clock pin held low, (not reading any data) data pin pulses are 100 usec, frequency is 11.2 Hz (90 msec spacing) each high-to-low transution indicates a new value is available from the HX711
 	
 The data pin goes high when data has been read, and only goes low when new data is available
-	___      _   _         _     ______________________
-	   |____| |_| |_____| |__|                                 |__Data Pin
-	
-	
-	___|||||||||||||||||||||||||________________________|| Clock Pin
 
 By applying 25~27 positive clock pulses at the clock pin, data is shifted out from the data output pin. Each clock pulse shifts out one bit, starting with the MSB bit first, until all 24 bits are shifted out. The 25th pulse at clock input will pull data pin back to high. Input and gain selection is controlled by adding a number of extra input clock pulses to the train after the data is collected.
 	clock Pulses   	Input channel   Gain
