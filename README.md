@@ -1,4 +1,14 @@
 ## Hydration Station Documentation
+Designed with industry/office use in mind, Hydration Station provides a way for employees to stay hydrated throughout their office hours allowing them to maintain alertness and concentration. Hydration Station allows the average water consupmtion per day to be monitored, encouraging employees to increase their water intake per day. Additional features; automatic replenishment when liquid level drops below a threshold level. 
+
+Components required:
+* Raspberry Pi 3 B+
+* PCB (See PCB section for full component list)
+* Load cell
+* Load cell mount, i.e. chipboard or strong plastic sheeting
+* Water bottle with a tap
+* Funnel or hose
+
 
 ## Hardware 
 
