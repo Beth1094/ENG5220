@@ -3,7 +3,7 @@ Designed with industry/office use in mind, Hydration Station provides a way for 
 
 Components required:
 * Raspberry Pi 3 B+
-* PCB (See PCB section for full component list)
+* PCB (See hardware section for full component list)
 * Load cell
 * Load cell mount, i.e. chipboard or strong plastic sheeting
 * Water bottle with a tap
