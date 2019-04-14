@@ -4,6 +4,7 @@
 ## Hydration Station Documentation
 Designed with industry/office use in mind, Hydration Station provides a way for employees to stay hydrated throughout their office hours allowing them to maintain alertness and concentration. Hydration Station allows the average water consupmtion per day to be monitored, encouraging employees to increase their water intake per day. Additional features; automatic replenishment when liquid level drops below a threshold level. 
 
+
 Components required:
 * Raspberry Pi 3 B+
 * PCB (See hardware section for full component list)
@@ -45,3 +46,8 @@ The HX711 interface needs at least 25 clock pulses, but the SPI hardware is only
 The current set up of the code always runs the HX711 with high gain, input channel A, by using 25 pulses but this is easily changeable within the code. This maps onto a pulsedThread train with 25 pulses with 1 us delay and duration time.
 		
 Data is 24 bit two's-complement differential signal min value is -8388608, max value is 8388607.
+
+## Social Media
+
+Follow us on Twitter!
+[Twitter] (https://twitter.com/hydrationSTN)
