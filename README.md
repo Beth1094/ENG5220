@@ -10,7 +10,7 @@ Components required:
 * PCB (See hardware section for full component list)
 * Load cell
 * Load cell mount, i.e. chipboard or strong plastic sheeting
-* Water bottle with a tap
+* Water bottle with a dispenser
 * Funnel or hose
 
 
