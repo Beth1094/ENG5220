@@ -14,9 +14,9 @@ Components required:
 * Funnel or hose
 
 
-## See Our Wiki for more details
+## See Our Wiki for more details on how to build your own Hydration Station 
+[Wiki](https://github.com/Beth1094/Hydration_Station/wiki)
 
 ## Social Media
 
-Follow us on Twitter!
-[Twitter] (https://twitter.com/hydrationSTN)
+Follow us on [Twitter!](https://twitter.com/hydrationSTN)
