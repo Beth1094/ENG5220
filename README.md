@@ -1,3 +1,6 @@
+![Hydration Station Logo](https://github.com/Beth1094/Hydration_Station/blob/master/HSCoverPhoto.png "Hydration Station Logo")
+
+
 ## Hydration Station Documentation
 Designed with industry/office use in mind, Hydration Station provides a way for employees to stay hydrated throughout their office hours allowing them to maintain alertness and concentration. Hydration Station allows the average water consupmtion per day to be monitored, encouraging employees to increase their water intake per day. Additional features; automatic replenishment when liquid level drops below a threshold level. 
 
