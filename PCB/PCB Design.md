@@ -13,7 +13,7 @@ Below shows a picture of the first attempt at designing and soldering the PCB, d
 
 ## Solenoid PCB
 
-As can be seen in the photo below the first version of the solenoid PCB was too large, revisions were made to make it a more reasonable size when designing the integrated circuit, but this version was used to test the ciruitry.
+As can be seen in the photo below the first version of the solenoid PCB was too large, revisions were made to make it a more reasonable size when designing the integrated circuit, but this version was used to test the circuitry.
 
 ![SolenoidCircuit](https://github.com/Beth1094/Hydration_Station/blob/master/PCB/Solenoid_Circuit_ver_1.jpg)
 
