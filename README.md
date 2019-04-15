@@ -3,7 +3,7 @@
 ## Group Members and their Contribution
 Beth (physics background): Embedded code & web server <br />
 Gary (physics background): PCB soldering & hardware <br />
-Natalie (optometry background): PCB Design & hardware
+Natalie (optometry/photonics background): PCB Design & hardware
 
 No group member has any specific experience with electrical engineering or knowledge of C++, however we have endeavoured to present a project which we have worked on to the best of our collective abilities.
 
