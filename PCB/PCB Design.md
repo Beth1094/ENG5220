@@ -29,4 +29,4 @@ Below is the final version of our PCB (after many attempts!). It has wider spaci
 
 ![IntegratedPCB](https://github.com/Beth1094/Hydration_Station/blob/master/PCB/integrated_PCB_!.jpg)
 
-
+Unfortunately the HX711 PCB does not work correctly. In the process of making the PCB we had to desolder the HX711 SMD from an existing HX711 chip and resolder onto our board. We believe this process has 'fried' the SMD, however we now have the scale running on a pre-made HX711 chip.
