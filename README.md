@@ -1,6 +1,6 @@
 ![Hydration Station Logo](https://github.com/Beth1094/Hydration_Station/blob/master/HSCoverPhoto.png "Hydration Station Logo")
 
-## Group Contrinutions
+## Group Contributions
 Beth: Embedded code & web server
 Gary: PCB soldering & hardware
 Natalie: PCB Design & hardware
