@@ -1,6 +1,6 @@
 # PCB Design
 
-Designing the PCB has taken a few iterations throughout the course of the project due to lack of experience.
+Designing the PCB has taken a few iterations throughout the course of the project.
 
 ## HX711 PCB
 
