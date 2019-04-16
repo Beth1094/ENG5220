@@ -1,8 +1,9 @@
 #include "HX711.h"
+#include <wiringPi.h>
 using namespace std;
 
 
-#define N_SAMPLES	100
+#define N_SAMPLES	50
 #define SPREAD		1
 #define scale     -142// calibration parameter
 
@@ -25,9 +26,17 @@ int main(void) {
 	long tmp_avg=0;
 	long tmp_avg2;
 
+	// Intialize the wiringPi Library
+  wiringPiSetup();
+  // solenoid valve is connected on pin 3. Ensure
+  // this pin is set to be an Output.
+  pinMode(3, OUTPUT);
+  digitalWrite(3, LOW);  /*Initially set BCM GPIO pin 22 to low: LED off*/
+
+
 	
-    /* Open spidev0.0 with mode 0 and max speed 1MHz */
-     HX711 a2d("/dev/spidev0.0", SPI_MODE_0, 1000000, 8);
+  /* Open spidev0.0 with mode 0 and max speed 1MHz */
+  HX711 a2d("/dev/spidev0.0", SPI_MODE_0, 1000000, 8);
 
 	
 	/* Set_Offset */
@@ -109,6 +118,16 @@ while(1)
 	
 	printf("Value: %d grams\n", (desired_bits - offset)/scale);
     //usleep(100000);
+	if (digitalRead (7) == HIGH)  /*turn solenoid valve on if user checks checkbox on webpage or pushes button*/
+      {
+          digitalWrite(3, HIGH);
+					//printf("solenoid on");
+      }
+      else
+      {
+           digitalWrite(3,LOW);
+       }
+
 	
 }
     a2d.~HX711();  //call destructor to close spi device 
