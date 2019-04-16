@@ -1,6 +1,6 @@
 # PCB Design
 
-Designing the PCB has taken a few iterations throughout the course of the project
+Designing the PCB has taken a few iterations throughout the course of the project.
 
 ## HX711 PCB
 
@@ -25,8 +25,8 @@ As can be seen in the photo below the first version of the solenoid PCB was too 
 
 ![Board](https://github.com/Beth1094/Hydration_Station/blob/master/PCB/PCB_board.PNG)
 
-Below is the final version of our PCB, it has wider spacing of the surface mount components to allow for easier soldeing and the pin headers are spaced accordinly so that the wire connections to the raspberry pi are easily accessed
+Below is the final version of our PCB (after many attempts!). It has wider spacing of the surface mount components to allow for easier soldeing and the pin headers are spaced accordingly so that the wire connections to the raspberry pi are easily accessed.
 
 ![IntegratedPCB](https://github.com/Beth1094/Hydration_Station/blob/master/PCB/integrated_PCB_!.jpg)
 
-
+Unfortunately the HX711 PCB does not work correctly. In the process of making the PCB we had to desolder the HX711 SMD from an existing HX711 chip and resolder onto our board. We believe this process has 'fried' the SMD, however we now have the scale running on a pre-made HX711 chip.
